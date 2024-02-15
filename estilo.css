@@ -1,0 +1,17 @@
+     /*Estilização*/
+
+     /*Informações para o usúario*/
+label{
+    font-family: arial;
+}
+  /*Caixas de texto e números*/
+input{
+    border-radius: 5px;
+}
+  /*Título da tela*/
+legend {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
