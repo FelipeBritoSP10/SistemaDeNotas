@@ -40,13 +40,16 @@ const situacaoEl = document.getElementById("situacao")
   
      //Condição pra ver se o aluno tá aprovado ou reprovado//
     if(media >=5){
-    situacaoEl.innerHTML = `<p class="bg-blue-500 text-white-400 p-3 font-bold">Parabéns ${nome}! Você foi aprovado(a)! </p>` 
+    situacaoEl.innerHTML = `<p class="bg-blue-500 text-white-400 p-3 font-bold">
+    Parabéns ${nome}! Você foi aprovado(a)! </p>` 
 
     }else if(media>=4){
-    situacaoEl.innerHTML = `<p class="bg-yellow-500 text-white-400 p-3 font-bold">Opa ${nome}! Você está de recuperação!</p>`
+    situacaoEl.innerHTML = `<p class="bg-yellow-500 text-white-400 p-3 font-bold">
+    Opa ${nome}! Você está de recuperação!</p>`
   
     }else{
-    situacaoEl.innerHTML =  `<p class="bg-red-500 text-white-400 p-3 font-bold">Sinto muito ${nome}! Você está reprovado(a)!</p>`
+    situacaoEl.innerHTML =  `<p class="bg-red-500 text-white-400 p-3 font-bold">
+    Sinto muito ${nome}! Você está reprovado(a)!</p>`
   }
   }) 
 
