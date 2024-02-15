@@ -35,8 +35,10 @@ const situacaoEl = document.getElementById("situacao")
     const media = (notaUm + notaDois) / 2
 
     mediaEl.textContent="Média das notas: " + media.toFixed(2)
-    mediaEl.innerHTML = "<p class='bg-indigo-200 p-3 font-bold'>Média das notas " + media.toFixed(1)+"</p>"
-    mediaEl.innerHTML = `<p class='bg-indigo-200 p-3 font-bold'>Média das notas: ${media.toFixed(1)}</p>`;
+    mediaEl.innerHTML = "<p class='bg-indigo-200 p-3 font-bold'>
+    Média das notas " + media.toFixed(1)+"</p>"
+    mediaEl.innerHTML = `<p class='bg-indigo-200 p-3 font-bold'>
+    Média das notas: ${media.toFixed(1)}</p>`;
   
      //Condição pra ver se o aluno tá aprovado ou reprovado//
     if(media >=5){
